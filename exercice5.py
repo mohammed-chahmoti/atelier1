@@ -5,4 +5,5 @@ def sumOfNumbers(n):
         sum += i
     return sum    
 
+print(sumOfNumbers(4))
 

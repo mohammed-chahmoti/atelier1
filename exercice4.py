@@ -11,3 +11,4 @@ def decimalToBinary(n):
             res = str(r)+res
             n //= 2
          return int(res)
+e

@@ -6,6 +6,7 @@ def factorielle(n):
             fact *= i
         return fact
     return 1
+print(factorielle(7))
 
 #fonction pour trouver la somme des series 1!/1 + 2!/2 + 3!/3 + 4!/4 + 5!/5
 
@@ -18,4 +19,5 @@ def sommeSerie(n):
             sum = 0
         for i in range(1,n+1):
             sum += factorielle(i-1)
-        return sum           
+        return sum   
+print(sommeSerie(0))        
